@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+import java.util.*;
+
 import Pokemones.*;
 
 public class Entrenador {
@@ -14,6 +15,9 @@ public class Entrenador {
 	}
 	
 	 public String toString(){
-		  return nombre;  
+		 for(int i = 0; i < pokemones.size(); i++) {
+	            System.out.println(pokemones);
+	        }
+		 return nombre;  
 	}  
 }
