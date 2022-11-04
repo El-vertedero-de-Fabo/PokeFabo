@@ -1,3 +1,4 @@
+package Tipos;
 
 public interface tipoPlanta {
 	public void atacarDrenadoras();

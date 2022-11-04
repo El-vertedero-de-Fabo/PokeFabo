@@ -1,5 +1,10 @@
+package Pokemones;
 
-public class Bulbasaur extends Pokemon{
+
+
+import Tipos.tipoPlanta;
+
+public class Bulbasaur extends Pokemon implements tipoPlanta{
 
 	@Override
 	protected void atacarPlacaje() {
@@ -16,6 +21,18 @@ public class Bulbasaur extends Pokemon{
 	@Override
 	protected void atacarMordisco() {
 		System.out.println("Bulbasaur Usa Mordisco");
+		
+	}
+
+	@Override
+	public void atacarDrenadoras() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atacarToxico() {
+		// TODO Auto-generated method stub
 		
 	}
 

@@ -1,10 +1,9 @@
-// Abstract Que es 
-// Interface Que hace
+package Pokemones;
 
 public abstract class Pokemon {
 	protected int id;
 	protected String nombre;
-	protected String sexo;
+	protected int vida;
 	
 	
 	protected abstract void atacarPlacaje();
