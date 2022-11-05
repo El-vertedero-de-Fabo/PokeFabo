@@ -3,6 +3,10 @@ import Tipos.tipoFuego;
 
 public class Charmander extends Pokemon implements tipoFuego{
 
+	public Charmander() {
+		super();
+	}
+
 	@Override
 	public void atacarPlacaje() {
 		System.out.println("Charmander Usa Placaje");

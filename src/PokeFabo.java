@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class PokeFabo {
 
 	public static void main(String[] args) {
-		
+		empezandoPartida();
 	}
 	
 	static void empezandoPartida() {
@@ -15,15 +15,11 @@ public class PokeFabo {
 		traine.nombreEntrenador("FaboHop");
 		
 		Charmander charmander = new Charmander();
-		Bulbasaur bulbasaur = new Bulbasaur ();
-		
-		traine.capturarPokemon(charmander);
-		traine.capturarPokemon(charmander);
 		traine.capturarPokemon(charmander);
 		
 		System.out.println(traine);
 		
-		//charmander.atacarAraniazo();
+		charmander.atacarAraniazo();
 	}
 	
 }
