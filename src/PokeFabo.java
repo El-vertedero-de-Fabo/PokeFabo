@@ -14,11 +14,12 @@ public class PokeFabo {
 		Entrenador traine = new Entrenador();
 		traine.nombreEntrenador("FaboHop");
 		
-		Charmander charmander = new Charmander();
+		Charmander charmander = new Charmander(1, "Pepino", 666);
 		traine.capturarPokemon(charmander);
 		
 		System.out.println(traine);
 		
+		charmander.datosPokemon();
 		charmander.atacarAraniazo();
 	}
 	

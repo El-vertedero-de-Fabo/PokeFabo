@@ -4,8 +4,13 @@ Juego con pokemones inventados por mi persona (algunos son algo fumadas)
 
 ![](/Portada/Portada.jpg)
 
+---
 
 ## Streams
+
+<p><img width="250" align='right' src="./Portada/Pikachu.png"></p>
+
+
 - [Programa Principal](#programa-principal)
 - [ordenarNumeros](#ordenarnumeros)
 - [promedioNumeros](#promedionumeros)

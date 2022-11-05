@@ -2,9 +2,13 @@ package Pokemones;
 import Tipos.tipoFuego;
 
 public class Charmander extends Pokemon implements tipoFuego{
-
+	
 	public Charmander() {
 		super();
+	}
+	
+	public Charmander(int id, String nombre, int vida) {
+		super(id, nombre, id);
 	}
 
 	@Override
